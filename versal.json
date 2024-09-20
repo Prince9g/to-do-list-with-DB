@@ -1,12 +1,12 @@
 {
-    "builds": [
+    "public": [
      {
       "src": "index.js",
       "use": "@vercel/node",
       "config": { "includeFiles": ["public/**"] }
      }
     ],
-    "routes": [
+    "": [
      {
       "src": "/(.*)",
       "dest": "index.js"
